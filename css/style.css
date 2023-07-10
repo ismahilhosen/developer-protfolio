@@ -19,5 +19,27 @@ body{
 /* header section  */
 header{
     background-color: var(--primary-color);
-    min-height: 100%;
+    height: 100vh;
+    
+}
+
+.navber{
+    padding: 30px;
+}
+.navber ul{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+
+}
+.navber ul li{
+    display: inline-flex;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+
+}
+.navber ul li a{
+    text-decoration: none;
+    color:var(--text-p-color)
+
 }
