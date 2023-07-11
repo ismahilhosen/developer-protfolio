@@ -19,7 +19,7 @@
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 32px;
     color: var(--text-p-color);
 }
 
@@ -375,8 +375,8 @@ header {
 
 #SERVICE {
     background-color: var(--primary-color);
-    min-height: 812px;
-    height: 90vh;
+    /* min-height: 812px;
+    height: 90vh; */
 }
 
 .head-text-s {
@@ -408,7 +408,13 @@ header {
     height: 220px;
     border-radius: 10px;
     padding: 12px;
+    cursor: pointer;
 
+}
+
+.services-item:hover {
+    transform: translate(0, -5px);
+    transition: all .3s ease-in-out;
 }
 
 .services-item>i {
@@ -462,11 +468,12 @@ header {
     background-color: #61dbfb5b;
 }
 
-.counter {
-    background-color: var(--secndary-color);
+.servic-sub-s {
     min-height: 500px;
-    height: 60%;
+    background-color: var(--secndary-color);
 }
+
+
 
 .counter-header {
     text-align: center;
@@ -481,4 +488,134 @@ header {
 
 .counter-header h1 {
     margin-top: 5px;
+}
+
+.counter-contan {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 30px;
+    margin-top: 30px;
+
+}
+
+
+
+.counter-item {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+
+}
+
+.counter-item>i {
+    font-size: 35px;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 10px 10px;
+
+}
+
+.counter-item0>i {
+    color: var(--band-color);
+}
+
+.counter-item1>i {
+    color: #0072b1;
+}
+
+.counter-item2>i {
+    color: var(--text-d-color);
+}
+
+.counter-item3>i {
+    color: #2FB4AE;
+}
+
+/* contact section  */
+
+#contacts {
+    background-color: var(--primary-color);
+}
+
+.contacts-contaner {
+    display: grid;
+    gap: 20px 0;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-header>p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.hr {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid var(--text-s-color);
+    margin-bottom: 25px;
+}
+
+.address p {
+    color: var(--text-p-color) !important;
+}
+
+.address p:first-child {
+    font-weight: 700;
+}
+
+
+
+.text-d {
+    display: inline-flex;
+}
+
+.text-d i {
+    padding: 15px 0;
+    font-size: 22px;
+    color: var(--band-color);
+    margin-right: 20px;
+}
+
+.text-d p {
+    padding: 15px 0;
+
+}
+
+.phone {
+    margin-top: 25px;
+}
+
+.phone p {
+    color: var(--text-p-color) !important;
+}
+
+.phone>p:last-child {
+    margin-top: -13px;
+    margin-left: 43px;
+
+}
+
+.phone p:first-child {
+    font-weight: 700;
+}
+
+.support p:first-child {
+    font-weight: 700;
+
+}
+
+.support {
+    margin-top: 25px;
+}
+
+.support p {
+    color: var(--text-p-color) !important;
+
+}
+
+.support>p:last-child {
+    margin-top: -13px;
+    margin-left: 43px;
+
 }
