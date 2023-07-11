@@ -36,7 +36,9 @@ body {
 /* header section  */
 header {
     background-color: var(--primary-color);
+    min-height: 800px;
     height: 100vh;
+
 
 }
 
@@ -91,6 +93,7 @@ header {
     background-repeat: no-repeat;
     object-fit: cover;
     height: 100%;
+
 }
 
 .header-contan {
@@ -326,6 +329,10 @@ header {
 
 }
 
+.text-contan {
+    margin-left: 50px;
+}
+
 .text-contan h1 {
     margin: 15px 0;
 }
@@ -335,14 +342,19 @@ header {
 }
 
 .skill-se ul {
-    display: inline;
+    display: flex;
+
+
+}
+
+.button-active {
+    border-bottom: 1px solid var(--band-color);
 
 }
 
 .skill-se ul li {
     padding: 5px 30px;
-    border-bottom: 1px solid var(--secndary-op-color);
-
+    list-style: none;
     margin: 0 10px;
 
 }
