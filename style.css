@@ -31,7 +31,7 @@ h6 {
 p {
     font-size: 17px;
     color: var(--text-s-color);
-    line-height: 29px;
+    line-height: 26px;
 }
 
 body {
@@ -366,7 +366,7 @@ header {
 
 .skill-se ul li a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     color: var(--text-s-color);
 
 }
@@ -375,23 +375,31 @@ header {
 
 #SERVICE {
     background-color: var(--primary-color);
-    min-height: 700px;
+    min-height: 812px;
     height: 90vh;
 }
 
 .head-text-s {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 20px;
     width: 60%;
     margin: 0 auto;
+}
+
+.head-text-s p {
+    margin-top: 15px;
+}
+
+.head-text-s h1 {
+    margin-top: 5px;
 }
 
 .services-de {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px 30px;
-    grid-template-rows: 1fr 1fr 1fr;
-
+    grid-template-rows: 1fr 1fr;
+    margin-top: 30px;
 
 }
 
@@ -399,5 +407,78 @@ header {
     background-color: var(--secndary-color);
     height: 220px;
     border-radius: 10px;
+    padding: 12px;
 
+}
+
+.services-item>i {
+    font-size: 22px;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+
+.services-item p {
+    margin: 0px 10px;
+    font-size: 16px !important;
+
+}
+
+.services-item h4 {
+    margin: 5px 10px;
+    color: var(--text-p-color);
+    font-size: 18px;
+
+}
+
+.services-item1>i {
+    color: #e1306b;
+    background-color: #e1306b52;
+}
+
+.services-item2>i {
+    color: #00acee;
+    background-color: #00abee5b;
+}
+
+.services-item3>i {
+    transform: rotate(90deg);
+    color: #0072b1;
+    background-color: #0072b15b;
+}
+
+.services-item4>i {
+    color: #4078c0;
+    background-color: #4078c05b;
+}
+
+.services-item5>i {
+    color: #3DDC84;
+    background-color: #3DDC845b;
+}
+
+.services-item6>i {
+    color: #61dbfb;
+    background-color: #61dbfb5b;
+}
+
+.counter {
+    background-color: var(--secndary-color);
+    min-height: 500px;
+    height: 60%;
+}
+
+.counter-header {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.counter-header p {
+    margin-top: 15px;
+}
+
+.counter-header h1 {
+    margin-top: 5px;
 }
