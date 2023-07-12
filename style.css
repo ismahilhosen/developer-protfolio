@@ -413,8 +413,8 @@ header {
 }
 
 .services-item:hover {
-    transform: translate(0, -5px);
-    transition: all .3s ease-in-out;
+    transform: translate(0, -6px);
+    transition: transform .4s ease;
 }
 
 .services-item>i {
@@ -540,8 +540,8 @@ header {
 
 .contacts-contaner {
     display: grid;
-    gap: 20px 0;
-    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 20px;
+    grid-template-columns: 0.7fr 1fr;
 }
 
 .contact-header>p {
@@ -617,5 +617,84 @@ header {
 .support>p:last-child {
     margin-top: -13px;
     margin-left: 43px;
+
+}
+
+.contant-from {
+    padding: 25px;
+    margin: -15px 0 0 20px;
+    background-color: var(--secndary-color);
+    border-radius: 10px;
+    box-shadow: -8px 1px 0px var(--text-d-color);
+}
+
+.contaner-box {
+    margin: 10px 0px;
+
+}
+
+.contaner-box h1 {
+    margin: 10px 0px;
+    font-size: 27px;
+}
+
+.contaner-box p {
+    margin-top: 10;
+}
+
+.input-d,
+#text {
+    background-color: var(--secndary-color);
+    border: none;
+    border-bottom: 1px solid var(--text-s-color);
+    outline: none;
+    padding: 5px 15px;
+    color: var(--text-s-color);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.input-d:focus,
+#text:focus {
+    border-bottom: 1px solid var(--secndary-op-color);
+}
+
+input,
+.text {
+    border: none;
+}
+
+#text {
+    width: 99%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#name {
+    width: 49%;
+    height: 40px;
+}
+
+#email {
+    width: 49%;
+    height: 40px;
+}
+
+#subject {
+    width: 99%;
+    height: 40px;
+}
+
+.input-btn {
+    background-image: linear-gradient(90deg, var(--band-color), var(--secndary-op-color)24%);
+    color: var(--text-p-color);
+    font-size: 16px;
+    padding: 15px;
+    width: 99%;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 
 }
