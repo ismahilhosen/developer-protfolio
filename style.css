@@ -106,7 +106,7 @@ header {
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-between;
-    align-self: center;
+    align-items: center;
 }
 
 .head-text {
@@ -307,6 +307,8 @@ header {
 .img-section {
     height: 50vw;
     width: 100%;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -327,7 +329,7 @@ header {
     width: 84vw;
     height: 80%;
     margin: 0 auto;
-    padding: 90px;
+    padding: 90px 30px 90px 30px;
     align-self: center;
     border-radius: 20px;
     position: relative;
@@ -711,7 +713,7 @@ h2 {
 
 .contaner-box-d {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: .8fr 0.5fr 0.6fr .81fr;
 }
 
 .btn-group2 button {
@@ -1330,5 +1332,46 @@ h2 {
 
     .contaner-itam4 {
         margin: 0;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:993px) {
+    .img-section img {
+        height: 450px;
+        z-index: 1;
+        position: absolute;
+
+    }
+
+    .img-section {
+        height: 50vw;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .cercle {
+        height: 320px;
+        width: 320px;
+        border-radius: 50% 50%;
+        background-color: #2C9DAD;
+        position: absolute;
+
+    }
+
+    #contaner {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        background-color: var(--primary-color);
+        width: 84vw;
+        height: 80%;
+        margin: 0 auto;
+        padding: 90px 30px 90px 30px;
+        align-self: center;
+        border-radius: 20px;
+        position: relative;
+
     }
 }
