@@ -964,7 +964,7 @@ h2 {
     }
 
     .navber ul {
-        display: none;
+        display: flex;
     }
 
     .contaner {
@@ -1144,6 +1144,15 @@ h2 {
 
 @media screen and (min-width:577px) and (max-width:992px) {
 
+    /* hamberger manu open  */
+
+
+    /* hamberger manu closs  */
+
+
+
+
+
     .contaner {
         width: 95vw;
         margin: 0 auto;
@@ -1165,7 +1174,9 @@ h2 {
     }
 
     .navber ul {
-        display: none;
+        display: flex;
+        justify-content: center;
+
     }
 
     .contaner {
