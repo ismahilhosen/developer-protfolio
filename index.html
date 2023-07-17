@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="" type="image/x-icon">
     <title>Protfolio</title>
@@ -14,7 +15,7 @@
     <!-- mobile menu  -->
     <div id="manu " class="manu hidden">
         <ul class="lg-hidden hlink">
-            <li><a class="" id="active" href="#home">HOME</a></li>
+            <li><a class="" href="">HOME</a></li>
             <li><a class="" href="#about">ABOUT US</a></li>
             <li><a class="" href="#SERVICE">SERVICE</a></li>
             <!-- <li><a class="" href="#work">WORK</a></li>
@@ -30,7 +31,7 @@
             <nav class="nav">
                 <div class="navber">
                     <ul class="md-hidden">
-                        <li><a href="#home">HOME</a></li>
+                        <li><a href="">HOME</a></li>
                         <li><a href="#about">ABOUT US</a></li>
                         <li><a href="#SERVICE">SERVICE</a></li>
                         <!-- <li><a href="#SERVICE">WORK</a></li>
@@ -50,13 +51,13 @@
 
             </nav>
             <div class="header-contan contaner">
-                <div class="head-text">
-                    <h3>Hello ! I AM </h3>
-                    <h1>MERN Strak Web Developer</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod expedita ipsam, consectetur debitis
+                <div  class="head-text ">
+                    <h3 data-aos-duration="400" data-aos="fade-right">Hello ! I AM </h3>
+                    <h1 data-aos-duration="500" data-aos="fade-right">MERN Strak Web Developer</h1>
+                    <p data-aos-duration="600" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod expedita ipsam, consectetur debitis
                         nesciunt ratione quasi soluta eligendi cupiditate esse veniam aspernatur alias ducimus iure?
                         Incidunt dolorum quod natus perferendis.</p>
-                    <div class="btn-group">
+                    <div class="btn-group" data-aos-duration="700" data-aos="fade-right">
                         <a href=""><button class="fb"><i class="fa-brands fa-facebook"></i>
                             </button></a>
                         <a href=""><button class="in"><i class="fa-brands fa-instagram"></i>
@@ -69,55 +70,55 @@
 
 
                     </div>
-                    <div class="regume-btn">
+                    <div data-aos-duration="800" data-aos="fade-right" class="regume-btn">
                         <a href=""><button class="button">
                                 Download Resume
                             </button></a>
 
                     </div>
                 </div>
-                <div class="head-img">
+                <div data-aos-duration="700" data-aos="fade-left" class="head-img">
                     <img src="./images/Profile1.png" alt="" srcset="">
                 </div>
             </div>
         </section>
     </header>
     <main>
-        <section id="about" class="aboutus">
-            <div id="contaner">
-                <div class="img-section">
+        <section id="about" class="aboutus" >
+            <div id="contaner" data-aos="fade-up" data-aos-duration="400">
+                <div class="img-section " data-aos="fade-up" data-aos-duration="700">
                     <div class="cercle"></div>
                     <img src="./images/about-img.png" alt="">
                 </div>
                 <div class="text-contan">
-                    <h1>About Us</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id obcaecati ab, inventore
+                    <h1 data-aos="fade-up" data-aos-duration="600">About Us</h1>
+                    <p data-aos="fade-up" data-aos-duration="700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id obcaecati ab, inventore
                         excepturi earum ea laboriosam, non, eum voluptate illo iure ipsa incidunt vitae qui veritatis
                         neque
                         impedit amet.
                     </p>
-                    <div class="skill-se">
+                    <!-- <div class="skill-se">
                         <ul>
                             <li class="button-active"><a href="">Skill</a></li>
                             <li><a href="">Expreance</a></li>
                             <li><a href="">Education</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
         <section id="SERVICE">
             <div class="contaner contaner-services">
                 <div class="head-text-s">
-                    <h6>What We Offer</h6>
-                    <h1>Affrodeble Services</h1>
-                    <p>Lorem ipsum dolor sit, amet conse adipisicing elit. Rem cum reiciendis, ex consequatur nisi
+                    <h6 data-aos="fade-left" data-aos-duration="600">What We Offer</h6>
+                    <h1 data-aos="fade-right" data-aos-duration="600">Affrodeble Services</h1>
+                    <p data-aos="fade-left" data-aos-duration="600">Lorem ipsum dolor sit, amet conse adipisicing elit. Rem cum reiciendis, ex consequatur nisi
 
                     </p>
                 </div>
 
                 <div class="services-de">
-                    <div class="services-item services-item1">
+                    <div class="services-item services-item1" data-aos="fade-up" data-aos-duration="400">
                         <i class="fa-solid fa-chart-pie"></i>
                         <h4>Research & Analysis</h4>
 
@@ -125,31 +126,31 @@
                         </p>
 
                     </div>
-                    <div class="services-item services-item2">
+                    <div class="services-item services-item2" data-aos="fade-up" data-aos-duration="500">
                         <i class="fa-solid fa-code"></i>
                         <h4>Web Development</h4>
                         <p>Lorem ipsum dolor sit, amet consec adipisicing elit. Ab, impedit. Lorem ipsum dolor sit
                         </p>
                     </div>
-                    <div class="services-item services-item3">
+                    <div class="services-item services-item3" data-aos="fade-up" data-aos-duration="600">
                         <i class="fa-brands fa-hive"></i>
                         <h4>Network Management</h4>
                         <p>Lorem ipsum dolor sit, amet consec adipisicing elit. Ab, impedit. Lorem ipsum dolor sit
                         </p>
                     </div>
-                    <div class="services-item services-item4 ">
+                    <div class="services-item services-item4 " data-aos="fade-up" data-aos-duration="700">
                         <i class="fa-solid fa-pen-nib"></i>
                         <h4>UI/UX Development</h4>
                         <p>Lorem ipsum dolor sit, amet consec adipisicing elit. Ab, impedit. Lorem ipsum dolor sit
                         </p>
                     </div>
-                    <div class="services-item services-item5">
+                    <div class="services-item services-item5" data-aos="fade-up" data-aos-duration="800">
                         <i class="fa-brands fa-android"></i>
                         <h4>Mobile App Development</h4>
                         <p>Lorem ipsum dolor sit, amet consec adipisicing elit. Ab, impedit. Lorem ipsum dolor sit
                         </p>
                     </div>
-                    <div class="services-item services-item6">
+                    <div class="services-item services-item6" data-aos="fade-up" data-aos-duration="900">
                         <i class="fa-brands fa-react"></i>
                         <h4>React Native</h4>
                         <p>Lorem ipsum dolor sit, amet consec adipisicing elit. Ab, impedit. Lorem ipsum dolor sit
@@ -160,30 +161,30 @@
             </div>
             <section id="#contact" class="servic-sub-s">
                 <div class="counter contaner">
-                    <div class="counter-header">
+                    <div class="counter-header" data-aos="fade-up" data-aos-duration="700">
                         <h6>Counter</h6>
                         <h1>Affrodeble Services</h1>
                         <p>Lorem ipsum dolor sit, amet conse adipisicing elit. Rem cum reiciendis, ex consequatur nisi
                             Lorem ipsum dolor sit, amet conse adipisicing elit. Rem cum reiciendis.
                         </p>
                     </div>
-                    <div class="counter-contan">
+                    <div class="counter-contan" data-aos="fade-up" data-aos-duration="500">
                         <div class="counter-item counter-item0">
                             <i class="fa-solid fa-heart-circle-check"></i>
                             <h1>20+</h1>
                             <p>Happy Clients</p>
                         </div>
-                        <div class="counter-item counter-item1">
+                        <div class="counter-item counter-item1" data-aos="fade-up" data-aos-duration="600">
                             <i class="fa-sharp fa-solid fa-sheet-plastic"></i>
                             <h1>27+</h1>
                             <p>Project Done</p>
                         </div>
-                        <div class="counter-item counter-item2">
+                        <div class="counter-item counter-item2" data-aos="fade-up" data-aos-duration="700">
                             <i class="fa-solid fa-star"></i>
                             <h1>60+</h1>
                             <p>Clients Review</p>
                         </div>
-                        <div class="counter-item counter-item3">
+                        <div class="counter-item counter-item3" data-aos="fade-up" data-aos-duration="800">
                             <i class="fa-solid fa-star"></i>
                             <h1>2+</h1>
                             <p>Year Of Experence</p>
@@ -197,41 +198,41 @@
         <section id="contacts">
             <div id="ctn" class="contaner contacts-contaner ">
                 <div class="contact-header">
-                    <h1>Let's Connect</h1>
-                    <p>Looking for help? Fill tha from and start a new Adventure</p>
-                    <span class="hr"></span>
+                    <h1 data-aos="fade-right" data-aos-duration="500">Let's Connect</h1>
+                    <p data-aos="fade-right" data-aos-duration="500">Looking for help? Fill tha from and start a new Adventure</p>
+                    <span data-aos="fade-right" data-aos-duration="500" class="hr"></span>
                     <div class="address">
-                        <p>Address:</p>
+                        <p data-aos="fade-right" data-aos-duration="500">Address:</p>
 
-                        <div class="text-d">
+                        <div class="text-d" data-aos="fade-right" data-aos-duration="500">
                             <i class="fa-solid fa-house-chimney"></i>
                             <p>Sherpur Sodor, Sherpur, Mymensingh, Bangladesh </p>
                         </div>
 
                     </div>
-                    <div class="phone">
-                        <p>Phone:</p>
+                    <div class="phone" >
+                        <p data-aos="fade-right" data-aos-duration="500">Phone:</p>
 
-                        <div class="text-d">
+                        <div class="text-d" data-aos="fade-right" data-aos-duration="500">
                             <i class="fa-sharp fa-solid fa-phone"></i>
                             <p>+8801944054000</p>
 
                         </div>
-                        <p>+8801681509109</p>
+                        <p data-aos="fade-right" data-aos-duration="500">+8801681509109</p>
                     </div>
-                    <div class="support">
-                        <p>Support:</p>
+                    <div class="support" >
+                        <p data-aos="fade-right" data-aos-duration="500">Support:</p>
 
-                        <div class="text-d">
+                        <div class="text-d" data-aos="fade-right" data-aos-duration="500">
                             <i class="fa-sharp fa-solid fa-phone"></i>
                             <p>ismahilhosen4000@gmail.com</p>
 
                         </div>
-                        <p>help@gmail.com</p>
+                        <p data-aos="fade-right" data-aos-duration="500">help@gmail.com</p>
                     </div>
 
                 </div>
-                <div class="contant-from">
+                <div class="contant-from" data-aos="fade-left" data-aos-duration="700">
                     <div class="contaner-box">
                         <h6>Let's talk</h6>
                         <h1>Enter your project details</h1>
@@ -253,7 +254,7 @@
         <section id="footer">
             <div class="contaner">
                 <div class="contaner-box-d">
-                    <div class="contaner-itam">
+                    <div class="contaner-itam" data-aos="fade-up" data-aos-duration="500">
                         <h2>
                             About Us
                         </h2>
@@ -278,7 +279,7 @@
                         </div>
 
                     </div>
-                    <div class="contaner-itam2">
+                    <div class="contaner-itam2" data-aos="fade-up" data-aos-duration="600">
                         <h2>Company</h2>
                         <ol>
                             <li> <a href="">Support</a></li>
@@ -287,7 +288,7 @@
                             <li><a href="">About Us</a></li>
                         </ol>
                     </div>
-                    <div class="contaner-itam3">
+                    <div class="contaner-itam3" data-aos="fade-up" data-aos-duration="700"> 
                         <h2>Linkedin</h2>
                         <div class="text-contant-d">
                             <p>The fully monty spiffing good time</p>
@@ -302,7 +303,7 @@
 
                         </div>
                     </div>
-                    <div class="contaner-itam4">
+                    <div class="contaner-itam4" data-aos="fade-up" data-aos-duration="800">
                         <h2>Sign up</h2>
                         <p>Follow our newsletter to stay updated about agency</p>
                         <div class="input-sub">
@@ -314,7 +315,7 @@
             </div>
         </section>
     </footer>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/script.js"></script>
 </body>
 

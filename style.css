@@ -353,6 +353,7 @@ header {
 
 .text-contan {
     margin-left: 50px;
+    
 }
 
 .text-contan h1 {
@@ -1012,6 +1013,12 @@ h2 {
         line-height: 24px;
     }
 
+
+        .navber {
+            padding: 30px;
+            display: flex;
+            justify-content: end;
+        }
     .contaner {
         width: 100vw;
         margin: 0 auto;
@@ -1266,7 +1273,11 @@ h2 {
     /* hamberger manu closs  */
 
 
-
+        .navber {
+            padding: 30px;
+            display: flex;
+            justify-content: end;
+        }
 
 
     .contaner {

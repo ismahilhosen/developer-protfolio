@@ -23,3 +23,9 @@ anker_link.addEventListener("click", () => {
     mobile_icon2.classList.add("hidden");
     mobile_icon.classList.remove("hidden");
 } )
+
+
+AOS.init({
+    duration: 500,
+    offset: 180,
+});
