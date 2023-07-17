@@ -1,24 +1,25 @@
+const manu = document.querySelector(".manu");
+const mobile_icon = document.querySelector(".fa-bars")
+const mobile_icon2 = document.querySelector(".fa-xmark")
+var anker_link = document.querySelector(".hlink")
+
+console.log(anker_link)
 
 
-const sections = document.querySelectorAll("section");
-const navLi = document.querySelectorAll(".navbar ul li a");
-window.addEventListener("scroll", () => {
-    let current = "";
-    sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if (pageYOffset >= sectionTop - sectionHeight / 3) {
-            current = section.getAttribute("id");
-        }
-    });
+mobile_icon.addEventListener("click", () =>{
+    manu.classList.remove("hidden");
+    mobile_icon2.classList.remove("hidden");
+    mobile_icon.classList.add("hidden");
+})
 
-    navLi.forEach((li) => {
-        li.classList.remove("active");
-        if (li.classList.contains(current)) {
-            li.classList.add("active");
-        }
-    });
-});
+mobile_icon2.addEventListener("click", () =>{
+    manu.classList.add("hidden");
+    mobile_icon2.classList.add("hidden");
+    mobile_icon.classList.remove("hidden");
+})
 
-
-
+anker_link.addEventListener("click", () => {
+    manu.classList.add("hidden");
+    mobile_icon2.classList.add("hidden");
+    mobile_icon.classList.remove("hidden");
+} )
